@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: otaku-api
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: npm start

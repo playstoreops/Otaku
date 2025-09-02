@@ -1,0 +1,33 @@
+{
+  "name": "otaku-api",
+  "version": "1.0.0",
+  "description": "Otaku API adalah API yang menyediakan data Anime, Donghua, Manga, Manhwa, dan Manhua bahasa Indonesia.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FandyAhmadAzizi/otaku-api.git"
+  },
+  "author": "fandyahmd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FandyAhmadAzizi/otaku-api/issues"
+  },
+  "homepage": "https://github.com/FandyAhmadAzizi/otaku-api#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2",
+    "vm2": "^3.9.19"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
